@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>关于我们</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="copyright" content="www.apicloud.com" />
+<link rel="stylesheet" href="../css/common.css">
+<script src="../script/api.js"></script>
+<style>
+    html,body,header,section,footer,nav,div,ul,ol,li,img,a,span,em,del,center,strong,var,fieldset,form,label,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea{
+        margin:0;
+        border:0;
+        padding:0;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-style:normal;
+    }
+html,body {
+    -webkit-touch-callout:none;
+    -webkit-text-size-adjust:none;
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    -webkit-user-select:none;
+}
+header,footer,section,nav,img,a,button,em,del,strong,var,fieldset,label,cite,small,time,mark,code,figcaption,figure,textarea{
+    display:block;
+}
+header,section,footer,nav {
+    position:relative;
+    overflow:hidden;
+}
+ol,ul{
+    list-style:none;
+}
+input,button,textarea {
+    border:0;
+    margin:0;
+    padding:0;
+    font-size:1em;
+    line-height:1em;
+    -webkit-appearance:none;
+    background-color:rgba(0, 0, 0, 0);
+}
+span{
+    display:inline-block;
+}
+a,a:visited{
+    text-decoration:none;
+}
+
+#header {
+    background-color:#272966;
+}
+#nav{
+    display:-webkit-box;
+    height:44px;
+}
+#left {
+    width:80px;
+    color:#fff;
+    background:url(../image/navbtn_back.png) no-repeat 14px 12px;
+    -webkit-background-size:12px 20px;
+}
+#left>span {
+    margin-top:13px;
+    margin-left:36px;
+    font-size:18px;
+    height:18px;
+    line-height:18px;
+}
+#middle {
+    -webkit-box-flex:1;
+    width:100%;
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+}
+#title {
+    font-size:18px;
+    text-align:center;
+    color:#fff;
+}
+#right {
+	background-color:#FFFFFF;
+    width:150px;
+    padding-top: 10px;
+}
+section {
+    -webkit-box-flex:1;
+}
+    body {
+        background-image: url(../image/common/bg.png);
+    }
+</style>
+</head>
+<body>
+    <div id="wrap">
+        <header id='header' style="background-color: #030303">
+            <nav id="nav">
+                <a id="left" onclick="doBack();" style="background-color: #030303">
+                    <span style="font-size: 20px">返回</span>
+                    <!--<span class="logo-right clearfix">
+                    <img class="aui-img-object " src="../image/logo-right.png"/>
+                    </span>-->
+                </a>
+                <div id="middle" style="background-color: #030303">
+                    
+                </div>
+                <!--<a id="right">
+                </a>-->
+                <div id="right" style="background-color: #030303">
+                    
+                </div>
+            </nav>
+        </header>
+        <div id="main">
+        </div>
+    </div>
+</body>
+<script>
+
+apiready = function() {
+
+	var header = $api.byId('header');
+	$api.fixIos7Bar(header);
+	var headerPos = $api.offset(header);//获取元素在页面中的位置与宽高
+	    
+    var pageUrl = api.pageParam.url;
+    alert(pageUrl);
+  
+    var title = api.pageParam.title;
+	var div = document.getElementById('middle');
+   	div.innerHTML = "<span id='title' style='font-size: 20px'>"+title+"</span>";
+   	
+   	var rightDiv = document.getElementById('right');
+   	rightDiv.innerHTML = "<span class='logo-right clearfix'><img class='aui-img-object' src='../image/logo-smaller.png'/></span>";
+   	var frameH = api.winHeight - headerPos.h;
+    api.openFrame({
+        name: 'about-con',
+        url: pageUrl,
+        rect:{
+            x:0,
+            y:headerPos.h,
+            w:'auto',
+            h:frameH
+        },
+        bgColor: '#FFFFFF',
+        showProgress: true,
+        bounces: false,
+        reload:true
+    });
+
+}
+	
+	function doBack()
+	{
+		localStorage.removeItem("picNames");
+		api.openWin({
+		    name: 'main',
+		    url: 'main.html'
+		});
+		api.closeWin({
+		    name: 'about2'
+		});
+		api.closeWin({
+		    name: 'about3'
+		});
+		api.closeWin({
+		    name: 'about4'
+		});
+	}
+
+	function getExType(modelName)
+	{
+		var exTypeId = "";
+		var exTypeCode = "";
+		var exTypeName = "";
+		var header = $api.byId('header');
+	    $api.fixIos7Bar(header);
+	    var pageUrl = api.pageParam.url;
+	    
+	    var flag = api.pageParam.flag;
+	    var workCellCode = api.pageParam.workCellCode;
+	    
+	    //alert(flag + ":" + workCellCode);
+	    
+	    var headerPos = $api.offset(header);//获取元素在页面中的位置与宽高
+	    
+	    var title = api.pageParam.title;
+	
+		var serverUrl = localStorage.getItem('serverUrl');
+		var url = serverUrl + "padController!getUsmType.m";
+		var un = localStorage.getItem('un');
+		var pw = localStorage.getItem('pw');
+		var serverIp = localStorage.getItem('serverIp');
+		var serverPort = localStorage.getItem('serverPort');
+		var serverProject = localStorage.getItem('serverProject');
+		var url1 = serverIp+":"+serverPort+"/"+serverProject;
+		
+		api.ajax({
+		    url: url,
+		    method: 'post',
+		    dataType: 'text',
+		    returnAll: 'false',//是否需要返回所有response信息，为true时，返回的头信息获取方法(ret.headers)，消息体信息获取方法(ret.body)，状态码获取方法(ret.statusCode)
+		    timeout: 60,
+		    data: {
+		        values: { 
+		            un: un,
+		            pw: pw,
+		            url: url1
+		        }
+		    }
+		},function(ret, err){
+			
+			if(ret){
+				var myobj=eval(ret); 
+				
+		        for (var i = 0; i < myobj.length; i++) {
+		        	if(myobj[i].usmTypeModelCode == modelName)
+					{
+						exTypeId = myobj[i].usmTypeId;
+						exTypeCode = myobj[i].usmTypeCode;
+						exTypeName = myobj[i].usmTypeName;
+						break;
+					}
+				}
+				
+				//alert(exTypeId);
+				//alert(exTypeCode);
+				//alert(exTypeName);
+				
+				var div = document.getElementById('middle');
+			   	div.innerHTML = "<span id='title' style='font-size: 20px'>"+title+"</span>";
+			   	
+			   	var rightDiv = document.getElementById('right');
+			   	rightDiv.innerHTML = "<span class='logo-right clearfix'><img class='aui-img-object' src='../image/logo-smaller.png'/></span>";
+			   	var frameH = api.winHeight - headerPos.h;
+			    api.openFrame({
+			        name: 'about-con',
+			        url: pageUrl,
+			        rect:{
+			            x:0,
+			            y:headerPos.h,
+			            w:'auto',
+			            h:frameH
+			        },
+			        pageParam: {
+						exTypeId : exTypeId,
+						exTypeCode : exTypeCode,
+						exTypeName : exTypeName,
+						flag : flag,
+						workCellCode : workCellCode
+			    	},
+			        bgColor: '#FFFFFF',
+			        showProgress: true,
+			        bounces: false
+			    });
+				
+			}else{
+				alert(JSON.stringify(err));
+			}
+		    
+		});
+	}
+
+//	function getfocus(str){
+//
+//  $api.byId("'"+str+"'").focus(); // 未检查数据安全性，未过滤特殊字符，注意XSS
+//}
+</script>
+</html>

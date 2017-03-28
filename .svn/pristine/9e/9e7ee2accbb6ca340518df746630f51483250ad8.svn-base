@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="932.1" version="1.1" viewBox="0 0 1368.9 932.1" id="workshop"
+    width="1368.9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_4028833948441c3e01484429e71b0001"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="90.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="35.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_4028833948441c3e01484429e71b0001" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_4028833948441c3e01484429e71b0001" x="85.0" y="45.0">WORKCELL</text>
+        <desc id="desc_4028833948441c3e01484429e71b0001">{"workCellCode":"WORKCELL","siteCode":"GONGCHANG1","workCenterCode":"WORKCENTER1","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"4028833948441c3e01484429e71b0001","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_297e7a3c4c2af417014c2b21ae9f0000"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="90.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="160.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_297e7a3c4c2af417014c2b21ae9f0000" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_297e7a3c4c2af417014c2b21ae9f0000" x="85.0" y="45.0">F1</text>
+        <desc id="desc_297e7a3c4c2af417014c2b21ae9f0000">{"workCellCode":"F1","siteCode":"GONGCHANG1","workCenterCode":"PS","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"297e7a3c4c2af417014c2b21ae9f0000","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a7523cc1c0003"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="325.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="35.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a7523cc1c0003" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a7523cc1c0003" x="85.0" y="45.0">A01</text>
+        <desc id="desc_402883e14a7518bd014a7523cc1c0003">{"workCellCode":"A01","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a7523cc1c0003","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a752416960004"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="545.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="35.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a752416960004" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a752416960004" x="85.0" y="45.0">A02</text>
+        <desc id="desc_402883e14a7518bd014a752416960004">{"workCellCode":"A02","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a752416960004","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a75243dba0005"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="785.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="40.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a75243dba0005" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a75243dba0005" x="85.0" y="45.0">A03</text>
+        <desc id="desc_402883e14a7518bd014a75243dba0005">{"workCellCode":"A03","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a75243dba0005","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a75245df70006"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="325.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="160.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a75245df70006" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a75245df70006" x="85.0" y="45.0">A04</text>
+        <desc id="desc_402883e14a7518bd014a75245df70006">{"workCellCode":"A04","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a75245df70006","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a752480010007"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="545.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="160.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a752480010007" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a752480010007" x="85.0" y="45.0">A05</text>
+        <desc id="desc_402883e14a7518bd014a752480010007">{"workCellCode":"A05","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a752480010007","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a7524a2740008"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="785.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="165.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a7524a2740008" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a7524a2740008" x="85.0" y="45.0">A06</text>
+        <desc id="desc_402883e14a7518bd014a7524a2740008">{"workCellCode":"A06","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a7524a2740008","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a7524f6800009"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="90.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="285.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a7524f6800009" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a7524f6800009" x="85.0" y="45.0">A07</text>
+        <desc id="desc_402883e14a7518bd014a7524f6800009">{"workCellCode":"A07","siteCode":"GONGCHANG1","workCenterCode":"GGJG01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a7524f6800009","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a75256224000a"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="90.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="395.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a75256224000a" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a75256224000a" x="85.0" y="45.0">B01</text>
+        <desc id="desc_402883e14a7518bd014a75256224000a">{"workCellCode":"B01","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a75256224000a","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a75258354000b"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="325.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="395.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a75258354000b" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a75258354000b" x="85.0" y="45.0">B02</text>
+        <desc id="desc_402883e14a7518bd014a75258354000b">{"workCellCode":"B02","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a75258354000b","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a7525aace000c"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="545.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="395.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a7525aace000c" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a7525aace000c" x="85.0" y="45.0">B03</text>
+        <desc id="desc_402883e14a7518bd014a7525aace000c">{"workCellCode":"B03","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a7525aace000c","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a7525f0e9000d"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="785.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="395.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a7525f0e9000d" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a7525f0e9000d" x="85.0" y="45.0">B04</text>
+        <desc id="desc_402883e14a7518bd014a7525f0e9000d">{"workCellCode":"B04","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a7525f0e9000d","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a752614b7000e"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="90.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="520.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a752614b7000e" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a752614b7000e" x="85.0" y="45.0">B05</text>
+        <desc id="desc_402883e14a7518bd014a752614b7000e">{"workCellCode":"B05","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a752614b7000e","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+    <svg contentScriptType="text/ecmascript" contentStyleType="text/css"
+        height="90.0"
+        id="workshop_svgWorkCell_402883e14a7518bd014a75263944000f"
+        preserveAspectRatio="xMidYMid meet" version="1.0" width="200.0"
+        x="325.0" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" y="520.0" zoomAndPan="magnify">
+        <rect fill="#FFFFFF"  height="89.0"
+            id="rect_402883e14a7518bd014a75263944000f" rx="10" ry="10"
+            stroke="#009944" stroke-width="1" width="199.0" x="1" y="1"/>
+        <text fill="#000000" font-family="微软雅黑" font-size="12"
+            font-style="bold"
+            id="workCellCode_402883e14a7518bd014a75263944000f" x="85.0" y="45.0">B06</text>
+        <desc id="desc_402883e14a7518bd014a75263944000f">{"workCellCode":"B06","siteCode":"GONGCHANG1","workCenterCode":"FDJZZP01","sumQty":false,"planQty":false,"effectiveQty":false,"uneffectiveQty":false,"discardQty":false,"workCellGid":"402883e14a7518bd014a75263944000f","shapeLocation":"left","transparency":true}</desc>
+    </svg>
+</svg>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" ng-app="UserInfoModule">
+
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  
+</head>
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="../bootstrap/css/bootstrap.theme.min.css">
+
+<script src="../1.3.0.14/angular.js"></script>
+<script src="../1.3.0.14/angular-route.js"></script>
+<script src="../1.3.0.14/angular-animate.js"></script>
+<script src="../script/app.js"></script>
+<script src="../controllers.js"></script>
+<script src="../script/filters.js"></script>
+<script src="../services.js"></script>
+<script src="../script/directives.js"></script>
+<body>
+<style>
+
+</style>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <div class="text-center" style="font-size: 18px"> 双向数据绑定form</div>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+       <div class="col-md-12">
+         <form class="form-horizontal" role="form" ng-controller="userInfo" name="myFrom">
+
+           <div class="form-group" ng-class="{'has-error':myFrom.minlength1.$dirty&&myFrom.minlength1.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              工 位：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="wrokcell"name="wrokcell" ng-minlength="5" ng-maxlength="20" ng-model="user.wrokcell" class="form-control" />
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.wrokcell.$error.minlength" class="alert alert-danger help-block">最小不能超过5位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.wrokcell.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>
+
+           <div class="form-group" ng-class="{'has-error':myFrom.routeline.$dirty&&myFrom.routeline.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              工艺路线：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="routeline"name="routeline" ng-minlength="5" ng-maxlength="20" ng-model="user.routeline" class="form-control" />
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.routeline.$error.minlength" class="alert alert-danger help-block">最小不能超过5位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.routeline.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>
+           
+            <div class="form-group" ng-class="{'has-error':myFrom.prodname.$dirty&&myFrom.prodname.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              产品名称：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="prodname"name="prodname" ng-minlength="6" ng-maxlength="20" ng-model="user.prodname" class="form-control" required/>
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.prodname.$error.minlength" class="alert alert-danger help-block">最小不能超过6位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.prodname.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>
+           
+           <div class="form-group" ng-class="{'has-error':myFrom.prodcode.$dirty&&myFrom.prodcode.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              产品编码：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="prodcode"name="prodcode" ng-minlength="5" ng-maxlength="20" ng-model="user.prodcode" class="form-control" />
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.prodcode.$error.minlength" class="alert alert-danger help-block">最小不能超过5位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.prodcode.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>
+                   <div class="form-group" ng-class="{'has-error':myFrom.mrlcode.$dirty&&myFrom.mrlcode.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              物料编码：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="mrlcode"name="mrlcode" ng-minlength="5" ng-maxlength="20" ng-model="user.mrlcode" class="form-control" />
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.mrlcode.$error.minlength" class="alert alert-danger help-block">最小不能超过5位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.mrlcode.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>
+                <div class="form-group" ng-class="{'has-error':myFrom.mrlname.$dirty&&myFrom.mrlname.$invalid}" >
+             <div class="col-md-4  text-right control-label" >
+                                              物料名称：
+             </div>
+             <div class="col-md-8 control-label text-left" >
+               <input type="text" id="mrlname"name="mrlname" ng-minlength="5" ng-maxlength="20" ng-model="user.mrlname" class="form-control" />
+             </div>
+             <div class="col-md-8 col-md-offset-4" ><div ng-show="myFrom.mrlname.$error.minlength" class="alert alert-danger help-block">最小不能超过5位</div></div>
+             <div class="col-md-8 col-md-offset-4"><div ng-show="myFrom.mrlname.$error.maxlength" class="alert alert-danger help-block">最大能超过20位</div></div>
+
+           </div>   
+           
+           <div class="form-group " >
+           <div class="col-md-12  ">
+           <button class="btn btn-success  btn-lg btn-block" ng-disabled="myFrom.$invalid"  ng-click="getinfo()">提交</button>
+           <button class="btn btn-danger  btn-lg btn-block" ng-disabled="myFrom.$invalid" ng-click="getinfo()">重置</button>
+          
+           </div>
+            
+           </div>
+           
+
+         </form>
+
+       </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+</body>
+</html>
